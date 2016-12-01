@@ -1,5 +1,8 @@
 # Semana 1 - Conceitos essenciais em JavaScript
 
+**Tradução de Artigos para estudo**
+- [Prototype Pattern - Addy Osmani](semana1/prototype-pattern-addy-osmani.md);
+
 **Conceitos**
 
 - [Herança de prototipo](#)
