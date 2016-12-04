@@ -1,5 +1,7 @@
 # Tradução livre do Tópico *Prototype Pattern* do Addy Osmani
 
+[Ver o original](https://addyosmani.com/resources/essentialjsdesignpatterns/book/#prototypepatternjavascript) 
+
 O GoF (Gang of Four) refere-se ao Padrão de Protótipo como um que cria objetos com base em um modelo de um objeto já existente através da clonagem.
 
 Nós podemos pensar em em Prototype Pattern como sendo baseado em herança de protótipo em que nós criamos objetos que agem como protótipos para outros objetos. O próprio objeto protótipo é efetivamente usado como um modelo para cada objeto que o construtor cria. Se o protótipo da função construtora usado contem uma propriedade chamada ***name*** por exemplo, então cada objeto criado pelo mesmo construtor também terá a mesma propriedade.
