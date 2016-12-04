@@ -5,7 +5,7 @@
 
 **Conceitos**
 
-- [Herança de prototipo](semana1/heranca-prototipo.md)
+- [Herança de prototipo](heranca-prototipo.md)
 - [Funções construtoras VS class](#)
 - [Factory](#)
 - [Mixins](#)
