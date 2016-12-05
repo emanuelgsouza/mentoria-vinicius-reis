@@ -6,8 +6,8 @@
 **Conceitos**
 
 - [Herança de prototipo](heranca-prototipo.md)
-- [Funções construtoras VS class](#)
+- [Funções construtoras VS class](class-vs-construction_functions.md)
 - [Factory](#)
 - [Mixins](#)
 - [Composição](#)
-- [Valores de this](#)
+- [Valores de this](entendendo-this.md)
