@@ -6,7 +6,10 @@ Em JavaScript, como no texto sobre [herança via prototipagem](heraca-prototipo.
 
 Primeiramente, na criação de classes em JavaScript (lembrando que classes == objetos, em JS), há três métodos:
 
-1. Usando a notação literal. Pouco indicada, a menos que você só vai ter somente um objeto.
+1 - Usando a notação literal. Pouco indicada, a menos que você só vai ter somente um objeto.
+
++ Pró: é mais simples de se manter
++ Contra: porem, desta forma, não é possível implementar herança via prototype
 
 ````js
 const emanuel = {
@@ -23,7 +26,10 @@ console.log(emanuel.idade); // 19
 console.log(emanuel.fala()); // Olá, sou Emanuel e tenho 19 anos.
 ````
 
-2. Usando uma função fábrica. Também pouco usual. É basicamente uma função que retorna um objeto.
+2 - Usando uma função fábrica (Factory). Também pouco usual. É basicamente uma função que retorna um objeto.
+
++ Pró: é quase uma evolução da outra, no sentindo de reaproveitamento de código
++ Contra: numa função fábrica não é possível setar prototype, de forma que não é possível criar herança via prototype
 
 ````js
 function Pessoa(n, i) {
@@ -43,7 +49,10 @@ console.log(emanuel.idade); // 19
 console.log(emanuel.fala()); // Olá, sou Emanuel e tenho 19 anos.
 ````
 
-3. Usando a função construtora, que é a forma mais usada. Ela é importante pois utiliza o operador *new*. Ela "constrói" o objeto.
+3 - Usando a função construtora. Ela é importante pois utiliza o operador *new*. Ela vem de construtora porque ela "constrói" um objeto pelos parâmetros que passam para ela.
+
++ Pró: possibilita reúso e herança via prototipagem
++ Contra: complexo de escrever e manter e é bastante verboso
 
 ````js
 function Pessoa(n, i) {
@@ -65,7 +74,11 @@ Porém, esta última, apesar de ser mais usada, não é a mais clara, tanto para
 
 ## O uso da class
 
-O uso de class é muito simples de entender, se você entedeu como funciona a função construtora. Para mais informações, leia o texto sobre Prototipagem, neste mesmo repositório. Vamos ao código!
+O uso de class é muito simples de entender, se você entedeu como funciona a função construtora. Para mais informações, leia o texto sobre Prototipagem, neste mesmo repositório.
+
++ Pró: tem uma sintaxe mais limpa, mais clara e objetiva, principalmente para quem veio de linguagens POO tradicionais
++ Contra: é mais limitado que funções construtoras e o uso do new é obrigatório, sem ser possível contorná-lo
+
 
 ````js
 // Trocamos function por class
