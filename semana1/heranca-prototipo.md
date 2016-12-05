@@ -111,7 +111,7 @@ console.log(emanuel.sexo);
 
 ## Como funciona a herança por prototipagem?
 
-Bem, como já dito, um protótipo é um modelo para a criação de outros objetos. Assim, o interpretador JavaScript irá buscar no objeto *emanuel* a propriedade *sexo*, não achando, irá em seu protótipo, e assim por diante, até chegar em Odin, o Pai de Todos, chamado ***Object.prototype*** que retornará **null**. No final das contas, teremos uma cadeia de protótipos, em que um sempre referenciará o outro, terminando a cadeia no Object.prototype.
+Bem, como já dito, um protótipo é um modelo para a criação de outros objetos. Assim, o interpretador JavaScript irá buscar no objeto *emanuel* a propriedade *sexo*, não achando, irá em seu protótipo, e assim por diante, até chegar em Odin, o Pai de Todos, chamado ***Object.prototype*** que retornará **undefined**. No final das contas, teremos uma cadeia de protótipos, em que um sempre referenciará o outro, terminando a cadeia no Object.prototype.
 
 ## Mas, e se eu quisesse criar uma cadeia de protótipos?
 
