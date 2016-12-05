@@ -162,7 +162,7 @@ PessoaFisica.prototype.dizCpf = function () {
 };
 
 let bebe = new Pessoa("Bebe", 0);
-let emanuel = new PessoaFisica("Emanuel", 19, "139.935.397-70");
+let emanuel = new PessoaFisica("Emanuel", 19, "123.456.789-10");
 console.log(emanuel); // Retorna uma instancia de PessoaFísica
 console.log(emanuel.falar()); // Retorna a function de Pessoa
 console.log(emanuel.dizCpf()); // Retorna a function de PessoaFisica
@@ -172,3 +172,11 @@ console.log(bebe); // Retorna uma instancia de Pessoa
 // portanto, não poderá acessar o método desta classe
 console.log(bebe.dizCpf()); // ERRO!
 ````
+
+## Mas por que deve ser feito *PessoaFisica.prototype = new Pessoa()* e não *PessoaFisica.prototype = Pessoa.prototype*?
+
+Por questões de referencia. Primeiro, se você faz o segundo caso acontecerá dois problemas:
+
+1. PessoaFisica.prototype pegará a referencia de Pessoa.prototype, e isto é um problema, pois toda modificação feita em PessoaFisica.prototype refletirá em Pessoa.prototype. E isto não é herença.
+
+2. O conceito de herança se traduz em uma classe filha herdar as características da classe mãe. Em JavaScript, isto via acontece via protótipos, sendo assim, eu preciso dizer que o protótipo de PessoaFisica será uma Pessoa, coisa que não acontece no segundo caso.
