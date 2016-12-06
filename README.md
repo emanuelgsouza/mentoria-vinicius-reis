@@ -1,12 +1,12 @@
 # Mentoria-vinicius-reis
 
-Um repositório do que eu vou construindo através da mentoria do Vinicius Reis rumo ao Desenvolvimento Full Stack em JavaScript.
-O repositório está dividido da seguinte forma:
+Este repositório é fruto do estudo rumo ao Desenvolvimento Full-Stack em JavaScript, com mentoria de Vinicius Reis. Ele servirá de um local para colocar todo conhecimento adquirido com os estudo sobre os mais diversos tópicos. Tal repositório, também incluirá traduções de textos usados como base para o conhecimento construído. Com isso em mente, ele está dividido da seguinte maneira:
 
-+ Cada semana uma pasta
-+ Cada pasta contem um README para que servir de Sumário
-+ Dentro de cada pasta, os exercícios e tals
+## Tópicos Iniciais - Acesse [aqui](semana1/README.md)
 
----
-
-+ Semana 1: [Essentials JavaScript](/semana1)
++ [x] Herança por prototipagem
++ [x] Funções construtoras vs class
++ [ ] Factory
++ [ ] Mixins
++ [ ] Composição
++ [x] Valores de this
