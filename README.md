@@ -4,12 +4,12 @@ Este repositório é fruto do estudo rumo ao Desenvolvimento Full-Stack em JavaS
 
 ## Tópicos indicados para estudo
 
-+ [x] Herança por prototipagem [Ler](texts/)
-+ [x] Funções construtoras vs class [Ler](texts/)
-+ [ ] Factory [Ler](texts/)
++ [x] Herança por prototipagem [Ler](texts/heranca-prototypo.md)
++ [x] Funções construtoras vs class [Ler](texts/class-vs-construction_functions.md)
++ [ ] Factory [Ler](texts/entendendo-o-padrao-factory.md)
 + [ ] Mixins
 + [ ] Composição
-+ [x] Valores de this [Ler](texts/)
++ [x] Valores de this [Ler](texts/entendendo-this.md)
 
 ## Traduções livres de textos utilizados no estudo
 
