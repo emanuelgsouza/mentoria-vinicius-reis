@@ -15,3 +15,4 @@ Este repositório é fruto do estudo rumo ao Desenvolvimento Full-Stack em JavaS
 
 + Prototype Pattern - Addy Osmani - [Ler](traducoes/prototype-pattern-addy-osmani.md)
 + Factory Pattern - Addy Osmani - [Ler](traducoes/factory-pattern-addy-osmani.md)
++ Mixin Pattern - Addy Osmani - [Ler](traducoes/mixin-pattern-addy-osmani.md)
