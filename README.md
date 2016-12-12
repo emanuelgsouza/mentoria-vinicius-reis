@@ -7,7 +7,7 @@ Este repositório é fruto do estudo rumo ao Desenvolvimento Full-Stack em JavaS
 + [x] Herança por prototipagem [Ler](texts/heranca-prototypo.md)
 + [x] Funções construtoras vs class [Ler](texts/class-vs-construction_functions.md)
 + [x] Factory [Ler](texts/entendendo-o-padrao-factory.md)
-+ [ ] Mixins
++ [x] Mixins [Ler](texts/entendendo-mixin-in-javascript.md)
 + [ ] Composição
 + [x] Valores de this [Ler](texts/entendendo-this.md)
 
