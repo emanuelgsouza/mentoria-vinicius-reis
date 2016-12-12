@@ -1,0 +1,29 @@
+{
+  "name": "mentoria",
+  "version": "1.0.0",
+  "description": "Repositorio para mentoria do Vincius Reis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelgsouza/mentoria-vinicius-reis.git"
+  },
+  "keywords": [
+    "mentoria",
+    "javascript",
+    "full-stack"
+  ],
+  "author": "Emanuel G",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emanuelgsouza/mentoria-vinicius-reis/issues"
+  },
+  "homepage": "https://github.com/emanuelgsouza/mentoria-vinicius-reis#readme",
+  "devDependencies": {
+    "eslint": "^3.12.0",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
