@@ -6,7 +6,7 @@ Há um post interessantíssimo sobre o assunto no Medium, cujo autor é Pedro Ba
 
 > A herança lida com o que o objeto é, por exemplo, um ser humano é um Mamífero. Já a composição lida com o que o objeto pode fazer, um ser humano, amamenta. Isso é o que há de comum entre um ser humano e um cachorro, ambos mamíferos, que é a capacidade de amamentar.
 
-Portanto o segredo para se entender composição em JavaScript é entender como abstrair **COMPORTAMENTOS** dos objetos. É reutilizar estes comportamentos, implementando o que se chama de herança horizontal.
+Portanto o segredo para se entender composição em JavaScript é entender como abstrair **COMPORTAMENTOS** dos objetos. É reutilizar estes comportamentos, implementando o que se chama de herança horizontal. Por fim, **é importante ressaltar que a melhor forma de implementar os métodos a seguir é usando-os dentro de factories**.
 
 Há dois métodos nativos do JavaScript que facilitam a implementação da composição:
 

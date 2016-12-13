@@ -8,7 +8,7 @@ Este repositório é fruto do estudo rumo ao Desenvolvimento Full-Stack em JavaS
 + [x] Funções construtoras vs class [Ler](texts/class-vs-construction_functions.md)
 + [x] Factory [Ler](texts/entendendo-o-padrao-factory.md)
 + [x] Mixins [Ler](texts/entendendo-mixin-in-javascript.md)
-+ [ ] Composição
++ [x] Composição [Ler](texts/entendendo-composicao-objetos-in-javascript.md)
 + [x] Valores de this [Ler](texts/entendendo-this.md)
 
 ## Traduções livres de textos utilizados no estudo
