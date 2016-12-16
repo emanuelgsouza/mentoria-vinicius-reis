@@ -1,4 +1,3 @@
-// Create the class Animal
 function Animal(n) {
   return {
     nome: n,
@@ -14,7 +13,6 @@ function Animal(n) {
   };
 }
 
-// Create the class Mamifero
 function Mamifero(g, p) {
   return {
     genero: g,
@@ -28,7 +26,6 @@ function Mamifero(g, p) {
   };
 }
 
-// Create the class Pessoa
 function Pessoa(na, a) {
   return {
     nascionalidade: na,
