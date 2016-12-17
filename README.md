@@ -10,9 +10,14 @@ Este repositório é fruto do estudo rumo ao Desenvolvimento Full-Stack em JavaS
 + [x] Mixins [Ler](texts/entendendo-mixin-in-javascript.md)
 + [x] Composição [Ler](texts/entendendo-composicao-objetos-in-javascript.md)
 + [x] Valores de this [Ler](texts/entendendo-this.md)
++ [x] Vue.js Leia o [README](estudo-vue/README.md)
 
 ## Traduções livres de textos utilizados no estudo
 
 + Prototype Pattern - Addy Osmani - [Ler](traducoes/prototype-pattern-addy-osmani.md)
 + Factory Pattern - Addy Osmani - [Ler](traducoes/factory-pattern-addy-osmani.md)
 + Mixin Pattern - Addy Osmani - [Ler](traducoes/mixin-pattern-addy-osmani.md)
+
+## Tópicos de Vue.js
+
++ Foi pedido um desenvolvimento de uma [agenda telêfonica utilizando o Vue.js](https://github.com/emanuelgsouza/phonebook-in-vue)
