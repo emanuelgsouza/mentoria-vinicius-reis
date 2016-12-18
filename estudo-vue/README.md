@@ -90,3 +90,87 @@ Bind vem de associar, ligar, vincular. É uma diretiva do Vue que tem como funç
 + Em checkbox e radio, não é necessário colocar o mesmo name, mas significar que representam a mesma informação
 
 + Ele irá capturar o valor de value e passá-lo para a variável.
+
+### v-if
+
+Ela, visualmente, é identica ao v-show, todavia, ela quando a condição for true, exibe o elemento, todavia, quando false, o elemento some da árvore do DOM.
+
+````html
+<tag v-if="expression"></tag>
+````
+
+### v-show
+
+Ela exibe ou oculta elementos baseado na expressão que se passa para ela. Se o valor da expressão for true, ela passa um display="sei la o que", porem, sendo false, ela seta display="none" ao elemento. Sintaxe:
+
+````html
+<tag v-show="expression"></tag>
+````
+
+### v-for
+
+Serve para iterar em um array, e criar repetições em meu DOM. Sintaxe:
+
+````html
+<tag v-for="value in array">
+  {{ value }} para exibir o valor do array
+  {{ $index }} para exibir o index do valor
+</tag>
+````
+
+### Observando modificações com *watch*
+
+Watch é uma propriedade da instancia de Vue, tal como el e data. Ele é um objeto e as suas propriedades são as propriedades de data que queremos modificar. Sua sintaxe:
+
+````js
+new Vue({
+  el: 'element',
+  data: {
+    prop: 'teste'
+  },
+  watch: {
+    // É possivel fazer isso de duas formas:
+    // prop: function() { ... },
+    prop(value, oldValue) {
+      // Com isso ele irá mostrar o valor atual e o valor antigo
+      console.log({ value, oldValue });
+    },
+
+    // É possivel fazer uma avaliação profunda:
+    prop: {
+      // É o método que será chamado
+      handler() {
+        console.log({ value, oldValue });
+      },
+      deep: true,
+    }
+  }
+});
+````
+
+### Fazendo computações de propriedades com *computed*
+
+É usado para computar dados, é similar ao watch, porem, mais poderoso. Sua sintaxe é:
+
+````js
+new Vue({
+  computed: {
+    prop() {
+      return ... // É necessário retornar alguma coisa que se for fazer com esta propriedade
+    },
+
+    // Ou eu posso criar um 'two-way'
+    prop: {
+      get() { return ... },
+      set(value) { /* Fazer alguma coisa com value */ }
+    },
+  },
+});
+````
+### Manipulando eventos com v-on
+
+É usado para manipular eventos. Tem sua sintaxe short, com 'v-on:' igual a '@'. Ele aciona um método que estará na propriedade method da instancia do Vue. Sua sintaxe é:
+
+````html
+<tag v-on:event="method"></tag>
+````
